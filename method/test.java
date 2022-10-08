@@ -1,4 +1,4 @@
-public class umur {
+public class test {
     public static void main(String[] args) {
         
         int x, y, z;
