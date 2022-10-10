@@ -140,5 +140,35 @@ public class nestedfor {
             System.out.println();
         }
 
+        System.out.println();
+
+        for (int i = 0;i < 10; i++) {
+            for (int j = 0; j < 10;j++) {
+                if ((i+j) < 9) {
+                    System.out.print("  ");
+                    continue;
+                } else if ((i+j) > 9) {
+                    break;
+                }
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
+        System.out.println();
+
+        for (int i = 0; i <= 10;i++) {
+            for (int j = 0;j <= 10;j++) {
+                if (i==j) {
+                    break;
+                } else if (i>1 && (i-j) >1) {
+                    System.out.print("  ");
+                    continue;
+                }
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+
     }
 }

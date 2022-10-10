@@ -28,6 +28,8 @@ public class arraymultidimentional {
 
     }
 
+    // private static void 
+
     private static void printArray(int [][] dataArray) {
         for (int i = 0; i < dataArray.length;i++) {
             System.out.println(Arrays.toString(dataArray[i]));
