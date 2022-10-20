@@ -8,6 +8,10 @@ public class arraymultidimentional {
             {4,5,6}
         };
 
+        System.out.println(Arrays.deepToString(num));
+
+        System.out.println();
+
         printArray(num);
         System.out.println();
 
